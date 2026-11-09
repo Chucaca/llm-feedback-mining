@@ -1,0 +1,25 @@
+{
+  "_note": "ILLUSTRATIVE prices in USD per 1M tokens, for cost estimation only. They go stale quickly: check each provider's pricing page before relying on them.",
+  "providers": {
+    "anthropic": {
+      "stage1": {"model": "claude-haiku-4-5", "input": 1.00, "output": 5.00},
+      "stage2": {"model": "claude-sonnet-4-5", "input": 3.00, "output": 15.00}
+    },
+    "openai": {
+      "stage1": {"model": "gpt-4o-mini", "input": 0.15, "output": 0.60},
+      "stage2": {"model": "gpt-4o", "input": 2.50, "output": 10.00}
+    },
+    "gemini": {
+      "stage1": {"model": "gemini-2.0-flash", "input": 0.10, "output": 0.40},
+      "stage2": {"model": "gemini-2.5-pro", "input": 1.25, "output": 10.00}
+    },
+    "deepseek": {
+      "stage1": {"model": "deepseek-chat", "input": 0.27, "output": 1.10},
+      "stage2": {"model": "deepseek-chat", "input": 0.27, "output": 1.10}
+    },
+    "mock": {
+      "stage1": {"model": "mock-heuristic", "input": 0.0, "output": 0.0},
+      "stage2": {"model": "mock-heuristic", "input": 0.0, "output": 0.0}
+    }
+  }
+}
